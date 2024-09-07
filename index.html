@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gautam's portfolio page</title>
+</head>
+<body>
+	<!-- Home Page -->
+	<!-- back_image of Home Page -->
+	<div id="header">
+		<!-- nabigation bar -->
+		<div class="container">
+			<nav>
+				<h2 id="logo"><span>G</span>autam</h2>
+				<ul id="sidemenu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Skills</a></li>
+					<li><a href="#">Project</a></li>
+					<li><a href="#">Contact</a></li>
+					<i class="fa-solid fa-x "onclick="closemenu()"></i>
+				</ul>
+				<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+			<div class="header-text ">
+				<p>Web Developer & Designer</p>
+				<h1>Hi, I'm <span> Gautam <br>Kumar Shaw </span> From <br><span id="orange">In</span>d<span id="green">ia</span> </h1>
+			</div>
+		</div>
+	</div>
+	<!-- About -->
+	 <div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-1"><img src="about.png" alt=""></div>
+				<div class="about-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>I'm Gautam Kumar Shaw, from the Sealdah of kolkata <br>in West Bengal, I completed my schooling with the <br>West Bengal Council of Higher Secondary Education in <br>2020. In 2022, I successfully undertook  the challenge<br> of the Common Entrance Test, paving my way into the <br>world of computer applications. Currently, I'm immersed<br> in the stimulating environment of Bachelor of Computer<br> Application at Narula Institute of Technology, affiliated <br>with the esteemed Maulana Abul Kalam Azad University <br>of Technology...</p>
+					<div class="tab-titles">
+						<p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-link" onclick="opentab('eduction')">Eduction</p>
+						<p class="tab-link" onclick="opentab('experience')">Experience</p>
+					</div>
+					<div class="tab-contant active-tab" id="skills">
+						<ul>
+							<li><span>Programming Language:</span><br>C, Java, Python & JavaScript</li>
+							<li><span>Devlopment:</span><br>Frontend & Backend Devlopment</li>
+							<li><span>DataBase:</span><br> SQL & MongoDB</li>
+							<li><span>Others:</span><br>DSA, DBMS, Operating Sysytem,<br> Machine Learning & Networking</li>
+
+						</ul>
+					</div>
+					<div class="tab-contant" id="eduction">
+						<ul>
+							<li><span>Graduation:</span><br>Narula Institute of Technology (MAKAUT)</li>
+							<li><span>Higher Secondary :</span><br>Khanna High School (WBBHSE)</li>
+							<li><span>Secondary :</span><br>Khanna High School (WBBSE)</li>
+						</ul>
+					</div>
+					<div class="tab-contant" id="experience">
+						<ul>
+							<li><span>No Experience:</span><br> Freshers</li>
+							
+					</div>
+				</div>
+			</div>
+		</div>
+	 </div>
+	 <!-- --------Skills--------- -->
+
+	 <div id="skills">
+		<div class="container">
+			<h1 class="sub-title">My Skills</h1>
+			<div class="skills-list">
+				<div>
+					<h2>Programming Language</h2><br>
+					<p>A programming language is a formal system of communication used to write instructions that a computer can execute. It consists of syntax (rules) and semantics (meaning) to create programs that perform specific tasks. Popular languages include Python, Java, and C++...</p>
+					<a href="https://www.simplilearn.com/best-programming-languages-start-learning-today-article#:~:text=A%20programming%20language%20is%20a,visual%20programming%20languages%2C%20graphical%20elements.">Learn more...</a>
+				</div>
+				<div>
+					<h2>Development</h2><br>
+					<p>Development refers to the process of creating, improving, and refining software, applications, or systems. It involves planning, coding, testing, and deploying solutions to meet specific user needs or solve problems...</p>
+					<a href="https://brainstation.io/career-guides/what-is-web-development#:~:text=Web%20development%2C%20also%20known%20as,web%20programming%2C%20and%20database%20management.">Learn more...</a>
+				</div>
+				<div>
+					<h2>DataBase</h2><br>
+					<p>A database is a structured system for storing, managing, and retrieving data efficiently. It organizes information in tables, rows, and columns, making it easy to access and update. Databases are essential for applications, websites, and various data-driven systems...</p>
+					<a href="https://www.oracle.com/in/database/what-is-database/">Learn more...</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	 </div>
+	 <!-- ------------projects-------------->
+	  <div id="project">
+		<div class="container">
+				<h1 class="sub-title">My Projects</h1>
+				<div class="project-list">
+					<div class="projects">
+						<img src="project1.png" alt="">
+						<div class="layer">
+							<h3>Shoping WebSite</h3>
+							<p>A shopping website is an online platform where customers can browse and purchase products or services with secure payment options.</p>
+							<a href="https://gautam-shaw.github.io/Apna-Store/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+					<div class="projects">
+						<img src="project2.png" alt="">
+						<div class="layer">
+							<h3>Spotify</h3>
+							<p>Spotify is a digital music streaming service that gives users access to millions of songs, podcasts, and playlists from artists worldwide.</p>
+							<a href="https://gautam-shaw.github.io/Spotify-/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+					<div class="projects">
+						<img src="project3.png" alt="">
+						<div class="layer">
+							<h3>QR Generater</h3>
+							<p>A QR code is a scannable barcode that quickly links to information or websites.</p>
+							<a href="https://gautam-shaw.github.io/QR-Code-Generator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	  <!-- ------------------------contact------------------ -->
+	   <div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="sub-title">Contact Me</h1>
+					<p> <i class="fa-solid fa-envelope"></i> gautammanpur02@gmail.com</p>
+					<p><i class="fa-solid fa-phone"></i> +91 9748245706</p>
+					<div class="social-icon">
+						<a href="https://www.linkedin.com/in/gautam-kumar-872574287/"><i class="fa-brands fa-linkedin"></i></a>
+						<a href="https://x.com/GautamK17724354"><i class="fa-brands fa-twitter"></i></a>
+						<!-- <a href="gautammanpur02@gmail.com">mne</a> -->
+					</div>
+					<button class="btn" ><a href="#" >Download CV</a></button>
+				</div>
+				<div class="contact-rigth">
+					<form action="">
+						<input type="text" placeholder="Enter your Name"required name="name">
+						<input type="email" name="email" placeholder="Enter your Email" required>
+						<textarea name="massage" rows="6" placeholder="Enter your message"></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	   </div>
+	<script src="script.js"></script>
+</body>
+</html>
